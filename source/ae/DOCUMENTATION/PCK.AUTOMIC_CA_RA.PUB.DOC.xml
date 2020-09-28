@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<DOCU name="PCK.AUTOMIC_CA_RA.PUB.DOC">
+<HEADER state="1">
+<Title>Package documentation</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType/>
+</HEADER>
+<DOCU_Docu state="1" type="text">
+<DOC><![CDATA[About the Package
+================================
+An action pack for ARA that leverages the CA RA inbound REST API. This way, the two products can trigger and get status between each other, enabling the construct of a master-slave configuration
+
+=Supported versions=
+
+=Setup=
+* The Agent should be able to access CA RA rest api endpoint URL in order to make HTTP requests.
+
+=Common Inputs=
+(None)
+
+=Actions=
+Following actions are supported.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_APPLICATIONS
+* Action Description:  This action lists all the applications which are present inside CA RA server.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_ENVIRONMENTS
+* Action Description:  This action lists all the Environments present for an application in  CA RA server.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.DELETE_RELEASE
+* Action Description:   This action deletes a release using basic release parameters.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.LOAD_MANIFEST
+* Action Description:   This action loads a manifest file to a deployment plan.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_APPLICATION_BY_ID
+* Action Description:  This action retrieves a specific application by entering the application id.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_ENVIRONMENT_BY_ID
+* Action Description:   This action retrieves specific environment details using the application id and the environment id.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.DELETE_ARTIFACT_VERSION
+* Action Description:   This action Deletes an artifact-version.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_ARTIFACT_PACKAGE
+* Action Description:   This action creates an empty artifact package.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_PROJECT
+* Action Description:   This action creates a new project for a specified application.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.STOP_DEPLOYMENT
+* Action Description:  This action stops a running deployment.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.RUN_DEPLOYMENTS
+* Action Description:  This action creates a deployment from an existing deployment plan.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_DEPLOYMENT_PLAN
+* Action Description: Create Deployment Plan.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_DEPLOYMENT_STATUS
+* Action Description: Gets the state of the deployment.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.LOAD_TOKENS
+* Action Description: Loads token values to an environment.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_TEMPLATE_PROPERTY
+* Action Description: Create template property for a given application and category id.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.UPDATE_TEMPLATE_PROPERTY
+* Action Description: Update template property for a given application and category id.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.DELETE_TEMPLATE_PROPERTY
+* Action Description: Delete template property for a given application and category id.
+
+* Action name:  PCK.AUTOMIC_CA_RA.PUB.ACTION.RUN_DEPLOYMENT_PLAN
+* Action Description: Creates a deployment plan from an existing deployment template.]]></DOC>
+</DOCU_Docu>
+</DOCU>
+</uc-export>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<VARA OVD_VRName="FREI" data_type="STATIC" name="PCK.AUTOMIC_CA_RA.PUB.PROMPT_EXTERNAL_MAP" replacementmode="2">
+<HEADER state="1">
+<Title>External mapping for Agent/Login</Title>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType>STATIC</OH_SubType>
+</HEADER>
+<ATTR_VARA state="1">
+<Type>C|Text</Type>
+<lblSource>Static</lblSource>
+<source>STATIC</source>
+<VRName>FREI|Freely selected</VRName>
+<NotFoundErr>0</NotFoundErr>
+<NotFoundDef>1</NotFoundDef>
+<ShareN>0</ShareN>
+<ShareL>0</ShareL>
+<ShareR>0</ShareR>
+<MaxValue_C>1024</MaxValue_C>
+<CheckMax_C>0</CheckMax_C>
+<uppercase>0</uppercase>
+<sortColumn>0</sortColumn>
+<sortDirection>0</sortDirection>
+<HostType/>
+</ATTR_VARA>
+<VARA state="1">
+<Variables>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_ARTIFACT_PACKAGE/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_DEPLOYMENT_PLAN/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_PROJECT/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.CREATE_TEMPLATE_PROPERTY/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.DELETE_ARTIFACT_VERSION/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.DELETE_RELEASE/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.DELETE_TEMPLATE_PROPERTY/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_APPLICATION_BY_ID/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_APPLICATIONS/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_DEPLOYMENT_STATUS/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_ENVIRONMENT_BY_ID/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.GET_ENVIRONMENTS/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.LOAD_MANIFEST/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.LOAD_TOKENS/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.RUN_DEPLOYMENT_PLAN/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.RUN_DEPLOYMENTS/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.STOP_DEPLOYMENT/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_CA_RA.PUB.ACTION.UPDATE_TEMPLATE_PROPERTY/AGENT#" Value="&amp;OVERWRITE_RA_AGENT_PROMPT#" Value1="" Value2="" Value3="" Value4=""/>
+
+</Variables>
+</VARA>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</VARA>
+</uc-export>
