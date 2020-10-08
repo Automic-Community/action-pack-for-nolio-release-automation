@@ -15,15 +15,15 @@ Available Actions:
 	7. Get Environment by ID
 	8. Get Application by ID
 	9. Create Artifact Package
-   10. Create Deployment Plan 
-   11. Create Project
-   12. Delete Release
-   13. Load Manifest
-   14. Load Tokens
-   15. Run Deployment Plan
-   16. Run Deployments
-   17. Stop Deployment
-   18. Get Deployment Status
+   	10. Create Deployment Plan 
+   	11. Create Project
+   	12. Delete Release
+   	13. Load Manifest
+   	14. Load Tokens
+   	15. Run Deployment Plan
+   	16. Run Deployments
+   	17. Stop Deployment
+   	18. Get Deployment Status
    
 	
 Supported Platforms:
