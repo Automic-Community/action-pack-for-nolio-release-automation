@@ -1,8 +1,7 @@
 About action pack:
 	CA Release Automation and CA Continuous Delivery Automation (formerly known as CA Automic Release Automation) both provide consistent, repeatable and auditable deployments across the Continuous Delivery pipeline.
-
-	This Action Pack allows CA Continuous Delivery Automation to manage objects and trigger workflows in CA Release Automation. 
-	In this way, you do not modify the deployment logic defined in CA Release Automation and you extend it using CA Continuous Delivery Automation.
+This Action Pack allows CA Continuous Delivery Automation to manage objects and trigger workflows in CA Release Automation. 
+In this way, you do not modify the deployment logic defined in CA Release Automation and you extend it using CA Continuous Delivery Automation.
 
 Available Actions:
 
@@ -26,14 +25,8 @@ Available Actions:
    	18. Get Deployment Status
    
 	
-Supported Platforms:
+CA Release Automation pack depends on
 
-	1. Oracle JRE 1.7 or later
-	2. To run the action on Windows, Apache HTTP server executable httpd must be present on the corresponding agent OS.
-	3. To run the action on UNIX, apachectl script must be present on the corresponding agent OS.
-	4. Required configuration file(s) for HTTP Server must also be present on agent OS.
-
-Apache HTTP Server Action pack depends on
-
-	- Automation.Engine » AutomationEngine (minimum version Automation.Engine 11.2)
+	- Automation.Engine » AutomationEngine (minimum version Automation.Engine 12.0)
 	- Package.ITPA.Shared » PCK.ITPA_SHARED (minimum version Package.ITPA.Shared 1.1)
+	- Package.RA.REST »  PCK.AUTOMIC_RA_REST (minimum version Package.RA.REST 1.0)
